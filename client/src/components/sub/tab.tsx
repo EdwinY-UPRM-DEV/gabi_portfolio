@@ -14,7 +14,7 @@ function Tab({
     }){
     return(
         <>
-        <div className={`flex justify-center items-center border-4 text-3xl font-skillet rounded-3xl bg-white w-58 h-12 p-2 ${colorVariants[tabColor]}` }>
+        <div className={`flex justify-center items-center border-4 text-4xl font-skillet rounded-3xl bg-white w-1/6 mt-5 p-2 ${colorVariants[tabColor]}` }>
         {content}
         </div>
         </>

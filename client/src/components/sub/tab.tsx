@@ -18,7 +18,7 @@ function Tab({ tabColor = "blue", content = "Test", onClick }) {
         flex justify-center items-center
         rounded-[50px] border-2
         bg-[var(--tab-color)] text-[var(--tab-color)]
-        text-5xl font-bantayog
+        text-4xl font-bantayog
         w-100 h-18 mt-5 p-2 cursor-pointer
         transition-transform duration-600 ease-out
         hover:scale-105 hover:-translate-y-1

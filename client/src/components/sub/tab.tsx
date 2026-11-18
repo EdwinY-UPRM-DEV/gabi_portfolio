@@ -20,7 +20,7 @@ function Tab({ tabColor = "blue", content = "Test", onClick }) {
         bg-[var(--tab-color)] text-[var(--tab-color)]
         text-4xl font-skillet
         w-70 h-18 mt-5 p-2 cursor-pointer
-        transition-transform duration-300 ease-out
+        transition-transform duration-600 ease-out
         hover:scale-105 hover:-translate-y-1
         focus-visible:outline-2 focus-visible:outline-offset-4
         motion-reduce:transition-none motion-reduce:transform-none
@@ -35,7 +35,7 @@ function Tab({ tabColor = "blue", content = "Test", onClick }) {
         <span
           className="
             absolute inset-0 bg-white
-            transition-transform duration-300 ease-out
+            transition-transform duration-600 ease-out
             group-hover:translate-x-full
             group-focus-visible:translate-x-full
             motion-reduce:transition-none

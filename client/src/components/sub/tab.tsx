@@ -16,10 +16,10 @@ function Tab({ tabColor = "blue", content = "Test", onClick }) {
       className={`
         group relative isolate
         flex justify-center items-center
-        rounded-3xl border-0
+        rounded-[50px] border-2
         bg-[var(--tab-color)] text-[var(--tab-color)]
-        text-4xl font-skillet
-        w-70 h-18 mt-5 p-2 cursor-pointer
+        text-5xl font-bantayog
+        w-100 h-18 mt-5 p-2 cursor-pointer
         transition-transform duration-600 ease-out
         hover:scale-105 hover:-translate-y-1
         focus-visible:outline-2 focus-visible:outline-offset-4
@@ -30,7 +30,7 @@ function Tab({ tabColor = "blue", content = "Test", onClick }) {
       {/* The inset leaves a 4px colored rim */}
       <span
         aria-hidden="true"
-        className="absolute inset-1 overflow-hidden rounded-[20px]"
+        className="absolute inset-1 overflow-hidden rounded-[50px]"
       >
         <span
           className="

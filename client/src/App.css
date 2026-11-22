@@ -28,4 +28,16 @@
   --font-skillet: "Skillet", sans-serif;
   --font-bantayog: "Bantayog", sans-serif;
   --font-bowl: "Bowl", sans-serif;
+  --animate-enter: enter 600ms ease-out both;
+
+  @keyframes enter {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }

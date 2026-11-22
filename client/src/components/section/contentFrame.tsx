@@ -1,4 +1,4 @@
-import Headline from "../sub/headline"
+import Headline from "./headline"
 
 const frameColor = {
         pink: "bg-[#fd97bf] border-[#fd97bf]"
